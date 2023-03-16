@@ -5,13 +5,12 @@ import Layout from '@theme/Layout';
 import styles from './index.module.scss';
 
 
-function Contact(): JSX.Element {
+export default (): JSX.Element => {
   return (
-    <Layout title={`联系我们`}>
+    <Layout title={`个人中心`}>
       <main>
-        联系我们
+        个人中心
       </main>
     </Layout>
   );
 }
-export default Contact;

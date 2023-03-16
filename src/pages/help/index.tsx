@@ -1,10 +1,10 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-import styles from './index.module.css';
+import styles from './index.module.scss';
 
 
-export default function Help(): JSX.Element {
+const Help = ():JSX.Element => {
   return (
     <Layout title={`帮助`}>
       <main>
@@ -13,3 +13,5 @@ export default function Help(): JSX.Element {
     </Layout>
   );
 }
+
+export default Help

@@ -63,21 +63,22 @@ const config = {
           //   label: 'Tutorial',
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
+            position: 'right',
+          },
           {to: '/help', label: '帮助中心', position: 'left'},
           {to: '/download', label: '下载中心', position: 'left'},
           {to: '/contact', label: '联系我们', position: 'left'},
+          {to: '/person', label: '个人中心', position: 'right'}
         ],
       },
       footer: {
-        style: 'dark',
+        // style: 'dark',
         links: [
           {
-            title: '第一列',
+            // title: '第一列',
             items: [
               {
                 label: '下载中心',
@@ -86,7 +87,7 @@ const config = {
             ],
           },
           {
-            title: '第二列',
+            // title: '第二列',
             items: [
               {
                 label: '百度一下',
